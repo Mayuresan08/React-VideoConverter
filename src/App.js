@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <div className="container1">
+    <div className="container">
     <h1 className="header">Convert .MP4 to HLS .M3U8 </h1>
     {(!show)?<Button className="new" variant="success" onClick={showForm}>Create NEW Project</Button>:null}
     <div className="form">
